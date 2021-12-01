@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+header .title {
+    display: flex;
+     align-items: center;
+}
+
+header .logo {
+    margin-right: 1em;
+}
+
+header .logo img {
+    width: 40px;
+}
+
