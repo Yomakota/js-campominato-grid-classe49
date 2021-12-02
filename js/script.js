@@ -64,7 +64,7 @@ function generateCells(numMin, numMax) {
         
         
         square.addEventListener("click", function(){
-            this.style.backgroundColor = "blue";
+            this.style.backgroundColor = "rgb(57, 188, 240)";
 
         });
 
