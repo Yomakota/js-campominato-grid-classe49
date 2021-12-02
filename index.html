@@ -9,8 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,800;1,600;1,700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,800;1,600;1,700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
     rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
@@ -25,7 +24,7 @@
         </div>
         <div class="level">
             <label for="">Difficolta:</label>
-            <select name="levels">
+            <select name="levels" id="level" >
                 <option value="easy">Easy</option>
                 <option value="medium">Medium</option>
                 <option value="hard">Hard</option>
@@ -34,7 +33,7 @@
         </div>
     </header>
     <main>
-        <div class="minefield"></div>
+        <div class="minefield" id="grid"></div>
     </main>
     <footer>
         <span>Made with <i class="fas fa-heart"></i> by <a href="#">Boolean</a></span>

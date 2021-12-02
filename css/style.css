@@ -5,6 +5,10 @@
     font-family: 'Nunito', sans-serif;
 }
 
+:root {
+    --square-size: 10;
+}
+
 /* HEADER */
 
 header {
@@ -51,9 +55,21 @@ main {
 }
 
 .minefield {
+    display: flex;
+    flex-wrap: wrap;
     width: 50%;
     height: 450px;
     border: 1px solid black;
+}
+
+.square {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / var(--square-size));
+    height: calc(100% / var(--square-size));
+    color: black;
 }
 
 /* FOOTER */
